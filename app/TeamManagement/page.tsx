@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 
-const HomePage = () => {
+const TeamManagement = () => {
 
   const [value, setValue] = useState('1');
 
@@ -93,4 +93,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default TeamManagement;
