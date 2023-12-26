@@ -1,12 +1,12 @@
 "use client";
-import Header from "../component/Header";
+import SideNav from "../component/SideNav";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <>
-        <Header>
+        <SideNav>
         <section>{children}</section>
-        </Header>
+        </SideNav>
         </>
     );
 }
